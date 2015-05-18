@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="first Button"-->
+                <!--android:id="@+id/hbuttonFirst"-->
+                <!--android:layout_below="@+id/textView2"-->
+                <!--android:layout_toRightOf="@+id/textView2"-->
+                <!--android:layout_toEndOf="@+id/textView2"-->
+                <!--android:layout_marginTop="78dp" />-->
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="secont button"-->
+                <!--android:id="@+id/button2"-->
+                <!--android:layout_marginTop="41dp"-->
+                <!--android:layout_below="@+id/hbuttonSecond"-->
+                <!--android:layout_toRightOf="@+id/textView2"-->
+                <!--android:layout_toEndOf="@+id/textView2" />-->
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="secont button"
+                android:id="@+id/button2"
+                android:layout_marginTop="41dp"
+                android:layout_below="@+id/hbuttonSecond"
+                android:layout_toRightOf="@+id/textView2"
+                android:layout_toEndOf="@+id/textView2" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="third button"
+                android:id="@+id/button3"
+                android:layout_marginTop="64dp"
+                android:layout_below="@+id/hbuttonThird"
+                android:layout_toRightOf="@+id/textView2"
+                android:layout_toEndOf="@+id/textView2" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

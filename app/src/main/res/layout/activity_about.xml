@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:text="@string/about_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inputsPage"
+        android:id="@+id/inputsPage2Button"
+        android:layout_gravity="center_vertical"
+        android:onClick="linker"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp" />
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:id="@+id/backBtn"
+        android:onClick="back"
+        android:layout_above="@+id/inputsPage2Button"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:text="New Text"
+        android:id="@+id/resultEnter"
+        android:layout_marginTop="88dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
